@@ -1,0 +1,335 @@
+img{
+    border: 5px solid goldenrod;
+}
+header{
+    font-family: "Lucida Handwriting";
+}
+.hover:hover{
+    font-size: 150%;
+
+}
+
+.indexBody{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-color: #552583;
+
+}
+
+.indexHeader{
+    border: 2px solid goldenrod;
+    background-color: purple;
+    border-width: fit-content;
+    width:fit-content;
+    color: goldenrod;
+    font-size: 40px;
+}
+.indexNav{
+    border: 5px solid goldenrod;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    position: relative; left: -5px; top:-425px;
+    color: goldenrod;
+    
+
+}
+
+
+form{
+    border: 20px solid black;
+    border-width: fit-content;
+    width: fit-content;
+    background-color:gold;
+    overflow: hidden;
+    float: center;
+    display: center;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15 px;
+    text-indent:10px;
+    text-align: justify;
+    
+    
+}
+.uploadH2{
+    font-size: 30;
+    color: black;
+    text-align: center;
+}
+
+.upload{
+    width: 100%;
+    color:goldenrod;
+    background-color: blueviolet;
+    font-size: 32px;
+}
+
+
+.indexH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    border: 2px goldenrod groove;
+    border-width: fit-content;
+    color: goldenrod;
+    background-color: black;
+}
+.indexTable{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: goldenrod;
+    border: 20px solid goldenrod;
+    position: relative;
+    left:80px;
+    top: 2px;
+
+
+}
+.uploadBody{
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    vertical-align: middle;
+    color: purple;
+    text-align: justify;
+    background-image: radial-gradient(circle at center center, #e01ee0, #dfe233), repeating-radial-gradient(circle at center center, #e01ee0, #e01ee0, 10px, transparent 20px, transparent 10px);
+    background-blend-mode: multiply;
+}
+.uploadNav{
+    border: 5px solid black;
+    border-width: fit-content;
+    width: fit-content;
+    background-color:gold;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+
+}
+.jordanTable{
+    background-color: #CE1141;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+}
+.jordanBody{
+    background-color: #808080
+    ;
+}
+.jordanNav{
+
+        border: 5px solid #ce1141;
+        border-width: fit-content;
+        width: fit-content;
+        background: color #808080;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        border-radius: 15px;
+        color: #CE1141;
+}
+.jordanImg{
+    border: 5px #CE1141;
+}
+.jordanH2{
+    font-size: 45px;
+    text-align: center;
+    border: 5px solid black;
+    background-color: #CE1141;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.kobeBody{
+    background-color: #552583;
+    color: #FDB927;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kobeNav{
+    border: 5px solid #FDB927;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #552583;
+}
+.kobeNav a.hover{
+    color: white;
+}
+.kobeNav:hover{
+    color: white;
+}
+.kobeH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    border: 5px;
+    border-color: #FDB927;
+    border-width: fit-content;
+    color: #FDB927;
+    background-color: #000000;
+
+
+
+}
+.kobeTable{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: #FDB927
+}
+.wadeBody{
+    background-color: #ba0c2f;
+    color: #FEDD00;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wadeNav{
+    border: 5px solid #FEDD00;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #ba0c2f;
+}
+.wadeH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    border: 5px;
+    border-color:#FEDD00;
+    border-width: fit-content;
+    color: #FEDD00;
+    background-color: #000000;
+
+}
+.wadeTable{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    background-color: #FEDD00;
+}
+.mjBody{
+    background-color: #CE1141;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mjNav{
+    border: 5px solid grey;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #CE1141;
+}
+.mjH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    border: 5px;
+    border-color: #CE1141;
+    border-width: fit-content;
+    color: grey;
+    background-color: #000000;
+}
+.mjTable{
+    background-color: #ba0c2f;
+    margin: 125px;
+    font-size: 25px;
+    text-align: center;
+
+}
+.kbBody{
+    background-color: #552583;
+    color: #552583;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kbNav{
+    border: 5px solid #000000;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: #FDB927;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #552583;
+}
+
+.kbH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center; 
+    border: 5px;
+    border-color: #552583;
+    border-width: fit-content;
+    color: #808080;
+    background-color: #FDB927;
+}
+.kbTable{
+    background-color: #FDB927;
+    font-size: 25px;
+    text-align: center;
+    margin: 125px;
+
+
+}
+.dwBody{
+    background-color: #98002E;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.dwNav{
+    border: 5px solid #000000;
+    border-width: fit-content;
+    width: fit-content;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #98002E;
+}
+.dwH2{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    border: 5px;
+    border-color: #98002E;
+    border-width: fit-content;
+    color: #000000;
+    background-color: #808080;
+}
+.dwTable{
+    background-color: #F9A01B;
+    font-size: 25px;
+    text-align: center;
+    margin:125px;
+}
+.mjImage{
+    border: 5px solid #ce1141;
+    margin-top: 25px;
+}
+
+

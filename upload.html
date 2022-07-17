@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+     <body class="uploadBody">
+        <nav class="uploadNav">
+            <a href="index.html"> Home | </a>
+            <a href="./pages/kobe.html"> Kobe Bryant |</a>
+            <a href="./pages/wade.html"> Dwayne Wade |</a>
+            <a href="./pages/jordan.html"> Michael Jordan |</a>
+            <a href="./upload.html">Video Upload | </a>
+        </nav>
+     <h2 class="uploadH2">Video Upload!</h2>
+     <form action="/action_page.php">
+        
+        <label for="fName">First Name:</label><br>
+        <input type="text" id="fName" placeholder="Please Enter First Name."required><br><br>
+        <label for="lName">Last Name:</label><br>
+        <input type="text" id="lName" placeholder="Please Enter Last Name"required><br><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email"placeholder="Please Enter your Email"required><br><br><br>
+
+        <label for="favorite">Who is your favorite shooting guard?</label><br>
+        <select name="favorite" id="favorite">
+            <option value=""disabled selected hidden>Choose a shooting guard</option>
+            <option value="23">Michael Jordan</option>
+            <option value="24">Kobe Bryant</option>
+            <option value="03">Dwayne Wade</option>
+            <option value="iverson">Allen Iverson</option>
+            <option value="harden">James Harden</option>
+            <option value="drexler"> Clyde Drexler</option>
+            <option value="gervin">George Gervin</option>
+            <option value="miller">Reggie Miller</option>
+            <option value="west">Jerry West</option>
+            <option value="Allen">Ray Allen</option>
+        </select><br><br><br>
+
+        <label for="sg">Which Shooting guard is this video for?</label><br>
+        <input type="radio" id="kobe" name="sg">
+        <label for="kobe">Kobe</label>
+        <input type="radio" id="wade" name="sg">
+        <label for="wade">Wade</label>
+        <input type="radio" id="jordan" name="sg">
+        <label for="jordan">Jordan</label>
+        <input type="radio" id="other" name="sg">
+        <label for="other">Other top SG</label><br><br><br>
+
+        <label for="upload">Upload your video here:</label><br>
+        <input type="file" name="upload" id="upload"><br><br><br>
+
+        <label for="description"> Please give a short description of the uploaded video.</label><br>
+        <textarea name="description" id="description" cols="30" rows="10"></textarea><br><br><br>
+
+        <input type="submit" class="upload" value="Upload Video"> <br><br><br>
+
+
+     </form>   
+     <hr>
+        <footer>
+            <p>&copy:Copright</p>
+        </footer>
+    </body>
+
+</html>
